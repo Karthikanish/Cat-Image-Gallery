@@ -1,0 +1,57 @@
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+.head {
+    text-align: center;
+
+}
+.h1{
+    background: black;
+    display: inline-block;
+    color: springgreen;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.image {
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.image img {
+    height: 20vw;
+    width: 20vw;
+}
+
+h3{
+    border: 1px solid black;
+}
+
+.header{
+    text-align: center;
+    padding: 1vw;
+  }
+  .footer{
+    text-align: center;
+    padding: 1vw;
+  }
+
+
+  @media screen and (max-width:600px) {
+    body{
+        font-size: 50%;
+    }
+  }
